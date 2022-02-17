@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@500&display=swap');
+
+/*header*/
+.header{
+	background: : pink;
+	padding: 20px;
+	position: fixed;
+	top: 0;
+	left:0;
+	width: 100%;
+}
+.logo{
+	display: inline-block;
+	color: #FA6980;
+	font-size: 13px;
+    margin-right: 92px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.navigation	{
+	display: inline-block;
+}
+.nav-li{
+	display: inline-block;
+}
+.nav-a{
+	color:#A6ADB4;
+	font-size: 11px;
+	margin:22px;
+	font-family: 'Roboto Serif', sans-serif;
+}
+.active{
+	color:#202124;
+}
+.nav-image{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+
+/*section1*/
+.container1{
+    width: 1160px;
+	height: 410px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 75px;
+}
+.blok-1,
+.blok-2,
+.blok-3{
+    width: 360px;
+    height: 350px;
+	display: inline-block;
+	position: relative;
+	background-color:  #FFFFFF;
+	margin-top: 40px;
+}
+.blok-2{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.p-1{
+	position: absolute;
+	top: 28px;
+	left: 40px;
+	width: 200px;
+	height: 100px;
+	font-size: 16px;
+    color: #FFFFFF;
+	font-family: 'Source Serif Pro', serif;
+}
+.p-2{
+	position: absolute;
+	top: 245px;
+	left:40px;
+	right: 40px;
+	text-align: left;
+	font-size: 13px;
+	color: #A6ADB4;
+	font-family: 'Source Serif Pro', serif;
+}
+.h2{
+	font-size: 24px;
+	color: #202124;
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+
+
+/*section2*/
+.container2{
+	display: inline-block;
+    margin-bottom: 234px;
+}
+.h2-2{
+	margin-bottom: 40px;
+	margin-left: 140px;
+	margin-top: 58px;
+	font-size:24px; 
+	color: #202124;
+	font-family: 'Akaya Telivigala', cursive;
+}
+.left-blok{
+	width: 760px;
+	height: 900px;
+	display: inline-block;
+    position: relative;
+    margin-left: 140px;
+}
+.left-p{
+	position: absolute;
+	left:569px;
+	top: 394px;
+	font-size: 16px;
+	color: #FFFFFF;
+	font-family: 'Source Serif Pro', serif;
+}
+.image5{
+	padding-top: 40px;
+}
+.right-blok{
+	width: 360px;
+	height: 900px;
+	display: inline-block;
+    margin-left: 40px;
+    position: relative;
+}
+.right-p{
+	position: absolute;
+	left: 40px;
+	top: 18px;
+	font-size: 16px;
+	color: #FFFFFF;
+	font-family: 'Source Serif Pro', serif;
+}
+.image7{
+	margin-top: 102px;
+	margin-bottom:102px;
+}
+.image8{
+	margin-bottom: 60px;
+}
